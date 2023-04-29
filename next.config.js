@@ -14,6 +14,9 @@ const nextConfig = {
   },
   experimental: {
     forceSwcTransforms: true
+  },
+  images: {
+    domains: ['media.graphassets.com']
   }
 }
 
