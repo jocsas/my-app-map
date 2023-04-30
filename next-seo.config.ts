@@ -2,7 +2,7 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://jocsa.ga',
+    url: 'https://curso.jocsa.ga',
     site_name: 'My App'
   },
   twitter: {

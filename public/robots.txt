@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://app.jocsa.ga
-
-# Sitemaps
-Sitemap: https://app.jocsa.ga/sitemap.xml

@@ -11,17 +11,17 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const { places } = await client.request<GetPlacesQuery>(GET_PLACES)
 
   const fields = places.map(({ slug }) => ({
-    loc: `https://app.jocsa.ga/${slug}`,
+    loc: `https://curso.jocsa.ga/${slug}`,
     lastmod: new Date().toISOString()
   }))
 
   fields.push(
     {
-      loc: 'https://app.jocsa.ga/',
+      loc: 'https://curso.jocsa.ga/',
       lastmod: new Date().toISOString()
     },
     {
-      loc: 'https://app.jocsa.ga/about',
+      loc: 'https://curso.jocsa.ga/about',
       lastmod: new Date().toISOString()
     }
   )
