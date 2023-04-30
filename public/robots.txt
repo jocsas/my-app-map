@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://my-app-jocsas.vercel.app
+Host: https://app.jocsa.ga
 
 # Sitemaps
-Sitemap: https://my-app-jocsas.vercel.app/sitemap.xml
+Sitemap: https://app.jocsa.ga/sitemap.xml
