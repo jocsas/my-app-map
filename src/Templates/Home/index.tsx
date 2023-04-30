@@ -13,14 +13,14 @@ export default function HomeTemplate({ places }: MapProps) {
       <NextSeo
         title="My App"
         description="A simple project from RIo de Janeiro"
-        canonical="https://jocsa.ga"
+        canonical="https://curso.jocsa.ga"
         openGraph={{
-          url: 'https://jocsa.ga',
+          url: 'https://curso.jocsa.ga',
           title: 'My App',
           description: 'A simple project from RIo de Janeiro',
           images: [
             {
-              url: 'https://jocsa.ga',
+              url: 'https://curso.jocsa.ga',
               width: 1280,
               height: 720,
               alt: 'My App'
